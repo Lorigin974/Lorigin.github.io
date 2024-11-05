@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Nombres cisterciens</h1>
+    <label for="input">Entrer un nombre compris entre 0 et 9999</label>
+    <input type="text" id="input" name="input">
+    <button id="button">Ecrire en cistercien</button>
+    <div>
+    <svg id="mySVG" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+        <line x1="50" y1="8" x2="50" y2="92" stroke="black" stroke-width="4" id="mainLine" />
+
+        <line x1="50" y1="10" x2="80" y2="10" stroke="black" stroke-width="4" stroke-opacity="0" id="1line" />
+        <line x1="50" y1="40" x2="80" y2="40" stroke="black" stroke-width="4" stroke-opacity="0" id="2line" />
+        <line x1="50" y1="10" x2="80" y2="40" stroke="black" stroke-width="4" stroke-opacity="0" id="3line" />
+        <line x1="50" y1="40" x2="80" y2="10" stroke="black" stroke-width="4" stroke-opacity="0" id="4line" />
+        <polyline points="50 10, 80 10, 50 40" stroke="black" stroke-width="4" stroke-opacity="0" fill-opacity="0" id="5line" />
+        <line x1="80" y1="8" x2="80" y2="40" stroke="black" stroke-width="4" stroke-opacity="0" id="6line" />
+        <polyline points="50 10, 80 10, 80 40" stroke="black" stroke-width="4" stroke-opacity="0" fill-opacity="0" id="7line" />
+        <polyline points="50 40, 80 40, 80 8" stroke="black" stroke-width="4" stroke-opacity="0" fill-opacity="0" id="8line" />
+        <polyline points="50 10, 80 10, 80 40, 50 40" stroke="black" stroke-width="4" stroke-opacity="0" fill-opacity="0" id="9line" />
+
+        <line x1="50" y1="10" x2="20" y2="10" stroke="black" stroke-width="4" stroke-opacity="0" id="10line" />
+        <line x1="50" y1="40" x2="20" y2="40" stroke="black" stroke-width="4" stroke-opacity="0" id="20line" />
+        <line x1="50" y1="10" x2="20" y2="40" stroke="black" stroke-width="4" stroke-opacity="0" id="30line" />
+        <line x1="50" y1="40" x2="20" y2="10" stroke="black" stroke-width="4" stroke-opacity="0" id="40line" />
+        <polyline points="50 10, 20 10, 50 40" stroke="black" stroke-width="4" stroke-opacity="0" fill-opacity="0" id="50line" />
+        <line x1="20" y1="8" x2="20" y2="40" stroke="black" stroke-width="4" stroke-opacity="0" id="60line" />
+        <polyline points="50 10, 20 10, 20 40" stroke="black" stroke-width="4" stroke-opacity="0" fill-opacity="0" id="70line" />
+        <polyline points="50 40, 20 40, 20 8" stroke="black" stroke-width="4" stroke-opacity="0" fill-opacity="0" id="80line" />
+        <polyline points="50 10, 20 10, 20 40, 50 40" stroke="black" stroke-width="4" stroke-opacity="0" fill-opacity="0" id="90line" />
+
+        <line x1="50" y1="90" x2="80" y2="90" stroke="black" stroke-width="4" stroke-opacity="0" id="100line" />
+        <line x1="50" y1="60" x2="80" y2="60" stroke="black" stroke-width="4" stroke-opacity="0" id="200line" />
+        <line x1="50" y1="90" x2="80" y2="60" stroke="black" stroke-width="4" stroke-opacity="0" id="300line" />
+        <line x1="50" y1="60" x2="80" y2="90" stroke="black" stroke-width="4" stroke-opacity="0" id="400line" />
+        <polyline points="50 90, 80 90, 50 60" stroke="black" stroke-width="4" stroke-opacity="0" fill-opacity="0" id="500line" />
+        <line x1="80" y1="92" x2="80" y2="60" stroke="black" stroke-width="4" stroke-opacity="0" id="600line" />
+        <polyline points="50 90, 80 90, 80 60" stroke="black" stroke-width="4" stroke-opacity="0" fill-opacity="0" id="700line" />
+        <polyline points="50 60, 80 60, 80 92" stroke="black" stroke-width="4" stroke-opacity="0" fill-opacity="0" id="800line" />
+        <polyline points="50 90, 80 90, 80 60, 50 60" stroke="black" stroke-width="4" stroke-opacity="0" fill-opacity="0" id="900line" />
+
+        <line x1="50" y1="90" x2="20" y2="90" stroke="black" stroke-width="4" stroke-opacity="0" id="1000line" />
+        <line x1="50" y1="60" x2="20" y2="60" stroke="black" stroke-width="4" stroke-opacity="0" id="2000line" />
+        <line x1="50" y1="90" x2="20" y2="60" stroke="black" stroke-width="4" stroke-opacity="0" id="3000line" />
+        <line x1="50" y1="60" x2="20" y2="90" stroke="black" stroke-width="4" stroke-opacity="0" id="4000line" />
+        <polyline points="50 90, 20 90, 50 60" stroke="black" stroke-width="4" stroke-opacity="0" fill-opacity="0" id="5000line" />
+        <line x1="20" y1="92" x2="20" y2="60" stroke="black" stroke-width="4" stroke-opacity="0" id="6000line" />
+        <polyline points="50 90, 20 90, 20 60" stroke="black" stroke-width="4" stroke-opacity="0" fill-opacity="0" id="7000line" />
+        <polyline points="50 60, 20 60, 20 92" stroke="black" stroke-width="4" stroke-opacity="0" fill-opacity="0" id="8000line" />
+        <polyline points="50 90, 20 90, 20 60, 50 60" stroke="black" stroke-width="4" stroke-opacity="0" fill-opacity="0" id="9000line" />
+    </svg>
+    </div>
+
+    <script>
+        let unitLines = [
+            document.getElementById("1line"),
+            document.getElementById("2line"),
+            document.getElementById("3line"),
+            document.getElementById("4line"),
+            document.getElementById("5line"),
+            document.getElementById("6line"),
+            document.getElementById("7line"),
+            document.getElementById("8line"),
+            document.getElementById("9line"),
+        ];
+
+        let tensLines = [
+            document.getElementById("10line"),
+            document.getElementById("20line"),
+            document.getElementById("30line"),
+            document.getElementById("40line"),
+            document.getElementById("50line"),
+            document.getElementById("60line"),
+            document.getElementById("70line"),
+            document.getElementById("80line"),
+            document.getElementById("90line"),
+        ];
+
+        let hundredsLines = [
+            document.getElementById("100line"),
+            document.getElementById("200line"),
+            document.getElementById("300line"),
+            document.getElementById("400line"),
+            document.getElementById("500line"),
+            document.getElementById("600line"),
+            document.getElementById("700line"),
+            document.getElementById("800line"),
+            document.getElementById("900line"),
+        ];
+
+        let thousandsLines = [
+            document.getElementById("1000line"),
+            document.getElementById("2000line"),
+            document.getElementById("3000line"),
+            document.getElementById("4000line"),
+            document.getElementById("5000line"),
+            document.getElementById("6000line"),
+            document.getElementById("7000line"),
+            document.getElementById("8000line"),
+            document.getElementById("9000line"),
+        ];
+
+        let input = document.getElementById("input");
+
+        let button = document.getElementById("button");
+
+        function calculate() {
+            let value = input.value;
+            if (value.length > 4 || isNaN(value)) {
+                return;
+            }
+
+            while (value.length < 4) {
+                value = "0" + value;
+            }
+
+            for (const line of unitLines.concat(tensLines, hundredsLines, thousandsLines)) {
+                line.setAttribute("stroke-opacity", "0")
+            }
+
+            if (value[0] != "0") {
+                thousandsLines[value[0]-1].setAttribute("stroke-opacity", "1");
+            }
+            if (value[1] != "0") {
+                hundredsLines[value[1]-1].setAttribute("stroke-opacity", "1");
+            }
+            if (value[2] != "0") {
+                tensLines[value[2]-1].setAttribute("stroke-opacity", "1");
+            }
+            if (value[3] != "0") {
+                unitLines[value[3]-1].setAttribute("stroke-opacity", "1");
+            }
+        }
+
+        button.addEventListener("click", calculate);
+    </script>
+</body>
+</html>
